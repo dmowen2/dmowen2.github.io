@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Merm;
+  src: url('../Fonts/Mermaid1001.ttf')
+  format('truetype')
+  }
+
+
+.resume_div {
+    max-width: 1000px;
+    width: auto;
+    margin: 0 auto;
+    height: 850px;
+    max-height: 1000px;
+    padding-bottom: 1em;
+    padding-top: 1em
+}
+
+.page-header {
+  width: auto;
+  position: relative;
+  height: 75px;
+
+}
+
+.page-header-content {
+  position: static;
+  height: 50px;
+  width: auto;
+  background: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding-right: 93.5vh;
+  padding-top: 5px;
+  color: #000;
+  font-family: Merm;
+  font-size: 1rem;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.statement-text-box {
+  position: static;
+  height: 250px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+
+
+.home-text-box {
+  position: static;
+  height: 100px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+
+.guide-box {
+  position: relative;
+  height: 5rem;
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000;
+  
+  width: 300px;
+
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  background-color: #fff;
+
+
+}
+.guide-center{
+  width: auto;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.page-title-box {
+  position: static;
+  height: 5rem;
+  /*
+  border-style: solid;
+  
+  border-width: 2px;
+  border-color: #000;
+  */
+  width: auto;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  background-color: #fff;
+
+}
+
+.hello-box {
+  margin-top: 25px;
+  position: static;
+  margin-bottom: 25px;
+  height: 5rem;
+  /*
+  border-style: solid;
+  
+  border-width: 2px;
+  border-color: #000;
+  */
+  width: auto;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  background-color: #fff;
+
+}
+
+
+.statement-text-box2 {
+  position: static;
+  height: 250px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  background-color: #F2F2F2;
+
+}
+
+.statement-text-doublebox {
+  position: static;
+  height: 500px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #000;
+  padding-top: 1rem;
+
+}
+
+.statement-text {
+  position: static;
+  text-align: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding-top: 1rem;
+}
+
+
+.team-box {
+  position: static;
+  text-align: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding-top: 1rem;
+  height: 300px;
+}
+
+.bookrec-container {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 800px 800px;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  padding-top: 1rem;
+  padding-left: 15vh;
+}
+
+
+.bookrec-box {
+    width: 800px;
+    /*
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    */
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #000;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .bookrec-imgblock {
+    border-radius: 10px;
+    height: 290px;
+    width: 250px;
+    /*
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    */
+
+    /*border-radius: 10px 10px 10px 10px;
+    */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: static;
+    background: #fff;
+
+  }
+
+  .heading-img {
+      max-width: 100%;
+      height: auto;
+      width: auto; /* ie8 */
+      border: #000;
+      border-width: 5px;
+      border-style: solid;
+  
+    }
+
+  .bookrec-img {
+    border: 5px solid #000;
+    background-color: #000;
+    border-radius: 10px;
+  }  
+  .bookrec-textbox {
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    height: 290px;
+    width: 540px;
+    background: #fff;
+    /*border-radius: 10px 10px 10px 10px;
+    */
+    position: static;
+    font-family: Merm;
+    font-size: 1rem;
+    text-align: left;
+    color: #000;
+    font-size: 1.5rem
+
+  }
+  .bottom-spacer {
+    position: static;
+    height: 250px;
+    width: auto;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    background-color: #fff;
+    padding-bottom: 1rem;
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.173b91ea.css",
+    "main.js": "/static/js/main.751b6ed5.js",
+    "static/js/787.b4013854.chunk.js": "/static/js/787.b4013854.chunk.js",
+    "static/media/hometopimg.png": "/static/media/hometopimg.858090b7ed6dcb383392.png",
+    "static/media/websiteprofilepic.png": "/static/media/websiteprofilepic.d10e2dad900860eb4576.png",
+    "static/media/atomichabits.png": "/static/media/atomichabits.cb87efe8b64ac477ef2d.png",
+    "static/media/artofwar.png": "/static/media/artofwar.5ca4dbb5c69bd615506e.png",
+    "static/media/subtleart.png": "/static/media/subtleart.55c508fb99e005a7de9b.png",
+    "static/media/canthurt.png": "/static/media/canthurt.2607b990477dfc42cd77.png",
+    "static/media/Mermaid1001.ttf": "/static/media/Mermaid1001.fb304cfb22003d6c591e.ttf",
+    "static/media/displayresume.pdf": "/static/media/displayresume.8cb903d7d2c5d3fc1219.pdf",
+    "index.html": "/index.html",
+    "main.173b91ea.css.map": "/static/css/main.173b91ea.css.map",
+    "main.751b6ed5.js.map": "/static/js/main.751b6ed5.js.map",
+    "787.b4013854.chunk.js.map": "/static/js/787.b4013854.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.173b91ea.css",
+    "static/js/main.751b6ed5.js"
+  ]
+}

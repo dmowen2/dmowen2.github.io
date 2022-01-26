@@ -14,17 +14,17 @@ function App() {
   return (
     <div className='page-container'>
     <div className='content-wrapper'>
-    <Router basename="/repo-name">
+    <Router>
       <Navbar />
       <Routes>
-        <Route path = '/' exact component={<Home/>}/>
-        <Route path='/home' exact component={<Home/>}/>
-        <Route path='/about' exact component={<About/>}/>
-        <Route path='/blog' exact component={<Blog/>}/>
-        <Route path='/bookrec' exact component={<Bookrec/>}/>
-        <Route path='/projects' exact component = {<Projects/>}/>
-        <Route path='/resume' exact component={<Resume/>}/>
-        <Route path='/contact' exact component={<Contact/>}/>  
+        <Route path = '/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/bookrec' element={<Bookrec/>}/>
+        <Route path='/projects' element = {<Projects/>}/>
+        <Route path='/resume' element={<Resume/>}/>
+        <Route path='/contact' element={<Contact/>}/>  
 
       </Routes>
 

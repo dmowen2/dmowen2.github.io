@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='page-container'>
     <div className='content-wrapper'>
-    <Router>
+    <Router basename="/repo-name">
       <Navbar />
       <Routes>
         <Route path = '/' exact component={<Home/>}/>

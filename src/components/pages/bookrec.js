@@ -3,11 +3,14 @@ import canthurtme from '../resources/canthurt.png'
 import subtleart from '../resources/subtleart.png'
 import artofwar from '../resources/artofwar.png'
 import atomichabs from '../resources/atomichabits.png'
+import Helmet from 'react-helmet'
 
 const Bookrec = () => {
     return (
         <div>
-
+            <Helmet>
+                <title>Dmowen | Book Recommendations</title>
+            </Helmet>
 
             <div className='page-header'>
                 <div className = 'page-header-content'>

@@ -20,6 +20,11 @@
   position: relative;
 }
 
+.is-stuckToBottom {
+  position: fixed;
+  bottom: 20px;
+}
+
 .content-wrapper{
   padding-bottom: 2.5rem;
 }

@@ -13,13 +13,13 @@
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    bottom: 0;
-    position: absolute;
+    bottom: 0px;
+    position: fixed;
     width: 100%;
-    height: 15rem;
+    height: 6.5rem;
 }
 .footer-link-box{
-    height: 12.5rem;
+    height: 4rem;
     
 }
 

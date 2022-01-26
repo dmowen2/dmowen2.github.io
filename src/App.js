@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/home'
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className='page-container'>
     <div className='content-wrapper'>
-    <Router>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path = '/' element={<Home/>}/>
@@ -28,7 +29,7 @@ function App() {
 
       </Routes>
 
-    </Router>
+    </HashRouter>
     </div>
     <Footer />
     </div>
